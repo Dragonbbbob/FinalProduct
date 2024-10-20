@@ -4,6 +4,14 @@ This project uses FastAPI to deploy a YOLO object detection model on Vercel.
 
 ## Setup
 
-1. Install dependencies:
+1. **Clone the repository**:
    ```bash
-   pip install -r requirements.txt
+   git clone https://github.com/your-username/my-yolo-project.git
+   cd my-yolo-project
+## Install dependencies:
+
+pip install -r requirements.txt
+
+## Run the app locally:
+
+uvicorn main:app --reload
